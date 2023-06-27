@@ -2,4 +2,4 @@
 
 ## practice here make projects and more
 
-### complete number theory and pinters in c++
+### complete number theory and pointers in c++
