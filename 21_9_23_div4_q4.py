@@ -9,21 +9,20 @@ for i in range(n):
 		tempc = 0
 		print(length)
 		print(wp)
-		for i in range(length):
-			if m[i] == "B" and tempc < wp and count == 0:
+		for j in range(length):
+			if m[j] == "B" and tempc < wp and count == 0:
 				count = count + 1
 				tempc = 0
-			elif m[i] == "B" and tempc < wp and count > 0:
+			elif m[j] == "B" and tempc < wp and count > 0:
 				tempc = 0
-			elif m[i] == "B" and tempc >= wp:
+			elif m[j] == "B" and tempc >= wp:
 				count = count + 1
 				tempc = 0
-			elif m[i] == "W" and count == 0:
+			elif m[j] == "W" and count == 0:
 				continue
-			elif m[i] == "W" and count > 0:
+			elif m[j] == "W" and count > 0:
 				tempc = tempc + 1
 			else:
 				continue
 		return count
 	print(clean(l))
-
