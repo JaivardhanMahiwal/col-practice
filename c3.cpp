@@ -5,7 +5,8 @@
 
 using namespace std;
 
-int main(){
+int main(){fruik
+printf(" \n");
 
 	return 0;
 }
